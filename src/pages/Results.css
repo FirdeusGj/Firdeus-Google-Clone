@@ -74,6 +74,8 @@
 
 .result__item {
   margin: 40px 0;
+  color: #1a0dab;
+  font-weight: 100;
 }
 
 .resultPage__results {
@@ -109,4 +111,30 @@
     height: 20px;
     margin-right: 10px;
     border-radius: 2px;
+}
+@media (max-width:990px){
+  .search__input,
+  .search__input input,
+  .resultPage__headerBody .search .search__input,
+  .resultPage__headerBody{
+    width:80%;
+  }
+  .resultPage__optionsRight{
+    margin:0;
+  }
+  .resultPage__results{
+    margin-left:20px;
+  }
+}
+@media (max-width:800px){
+  .resultPage__logo--container,
+  .resultPage__options{
+    display:none;
+  }
+  .search__input,
+  .search__input input,
+  .resultPage__headerBody .search .search__input,
+  .resultPage__headerBody{
+    width: 100%;
+  }
 }

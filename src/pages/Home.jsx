@@ -26,7 +26,7 @@ function Home() {
       </nav>
 
       <div className="home__body">
-        <img src={GoogleLogo} className="home__logo" />
+        <img src={GoogleLogo} className="home__logo" alt='google'/>
         <div className="home__input-container">
           <Search />
         </div>
